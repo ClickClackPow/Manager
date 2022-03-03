@@ -350,7 +350,7 @@ do
     -- // Constructor
     function ChatMessageManager.__init__(self, Data)
         -- // Set default
-        self.DefaultData.Messages = {"This Booth is Automated by a Computer. The Person Who Owns This Account is AFK", "pls donate for automated computer generated responses!", "ibeg2much donate to me for Integrated & Automated Booth Messages", "Automated Booth. Come check us out!"}
+        self.DefaultData.Messages = {"This Booth is Automated by a Computer. The Owner of This Account is AFK", "pls donate for automated computer generated responses!", "ibeg2much", "Automated Booth!"}
         self:LoadDefaults(Data)
     end
 
@@ -364,7 +364,7 @@ do
     -- // Constructor
     function BoothMessageManager.__init__(self, Data)
         -- // Set default
-        self.DefaultData.Messages = {"This Booth is Automated by a Computer. The Person Who Owns This Account is AFK", "pls donate for automated computer generated responses!", "ibeg2much donate to me for Integrated & Automated Booth Messages", "Automated Booth. Come check us out!"}
+        self.DefaultData.Messages = {"This Booth is Automated by a Computer. The Owner of This Account is AFK", "pls donate for automated computer generated responses!", "ibeg2much", "Automated Booth!"}
         self:LoadDefaults(Data)
     end
 
